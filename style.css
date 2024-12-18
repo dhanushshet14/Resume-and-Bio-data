@@ -1,0 +1,151 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #f9f9ff, #d9e4f5);
+    color: #333;
+    line-height: 1.8;
+}
+
+
+header {
+    background: linear-gradient(to right, #0f2027, #2c5364, #203a43);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid #4ca1af;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 15px auto;
+    border: 4px solid #4ca1af;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+header a {
+    color: #4ca1af;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #0f2027;
+    border-left: 4px solid #4ca1af;
+    padding-left: 10px;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.project, .education, .achievements, .experience, .coding-profiles {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #2c5364;
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.project p {
+    margin: 5px 0;
+    color: #555;
+}
+
+
+button {
+    background: #4ca1af;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #2c5364;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+footer {
+    text-align: center;
+    background: #0f2027;
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-top: 5px solid #4ca1af;
+}
+
+footer a {
+    color: #4ca1af;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #f1f1f1;
+}
+
+a {
+    color: #2c5364;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #4ca1af;
+    text-decoration: underline;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.profile-img,
+main,
+button:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
